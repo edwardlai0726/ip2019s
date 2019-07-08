@@ -3,16 +3,29 @@
 */
 
 
-function start(e) {
+function update() {
+var x = document.getElementById('in1').value;
 
+var ele = document.getElementById('info1');
+
+var y = '';
+
+for (var i = 0; i < x.length; i++){
+    y += x.charAt(i)
+    y += ' U+';
+    y += x.charCodeAt(i).toString(16).toUpperCase();
+    y += '<br>';
 }
 
-/*
-https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+ele.innerHTML = y;
 
-document.addEventListener(event, function, useCapture)
+document.getElementById('info3').innerHTML = 
+document.getElementById('in1').value.replace('大數據', 'big data')
+}
 
-true - The event handler is executed in the capturing phase
-false- Default. The event handler is executed in the bubbling phase
-*/
+function start(e) {
+    document.getElementById('in1').addEventListener("input", update);
+    update();
+}
+
 window.addEventListener( "load", start, false );
