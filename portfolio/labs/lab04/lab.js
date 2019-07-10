@@ -27,7 +27,8 @@ function update() {
    $('.diamonds').attr("src","./img/ace-of-diamonds.svg");
    $('.hearts').attr("src","./img/ace-of-hearts.svg");
    $('.spades').attr("src","./img/ace-of-spades.svg");
-   $('.back').attr("src","./img/ace-of-back.svg");
+   $('.back').attr("src","./img/joker-card.svg");
+  
 }
 
 $(function() {
