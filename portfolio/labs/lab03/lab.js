@@ -2,7 +2,7 @@
 	https://www.html5rocks.com/en/tutorials/file/dndfiles/
 */
 
-function readFiles(files) {
+function readFiles(files){
 var output = [];
 for(var i = 0, f; f = files[i]; i++) {
     output.push('<li><strong>', escape(f.name), '</strong> (',f.type || 'n/a', ') - ',
@@ -21,17 +21,17 @@ for (var i = 0, f; f = files[i]; i++) {
 
     reader.unload = function(evt) {
         var span = document.createElement('span');
-        span.setAttribute("class","svgshow");
+        span.setAttribute("class", "svgshow");
         span.innerHTML = evt.target.result;
         document.getElementById('svgimage').insertBefore(span, null);
 
         var span = document.createElement('span');
-        span.setAttribute("class","svgtext");
+        span.setAttribute("class", "svgtext");
         span.textContent = evt.target.result;
         document.getElementById('content').insertBefore(span, null);
     }
 }
-
+}
 function handleFileSelect(evt) {
     var files = evt.target.files;
 
@@ -53,7 +53,7 @@ function handleDragOver(evt) {
 }
 
 function start(e) {
-    document.getElementById('files').addEventListener('change', handleFileSelect,false);
+    document.getElementById('files').addEventListener('change', handleFileSelect, false);
 
     var dropZone = document.getElementById('drop_zone');
     dropZone.addEventListener('dragover', handleDragOver, false);
