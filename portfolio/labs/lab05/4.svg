@@ -1,0 +1,10 @@
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0,0,512,512">
+
+
+<circle fill="black" stroke="black" stroke-width="5" cx="256" cy="256" r="100"/>
+<circle fill="white" stroke="black" stroke-width="5" cx="215" cy="256" r="35"/>
+<circle fill="white" stroke="black" stroke-width="5" cx="285" cy="256" r="35"/>
+<circle fill="black" stroke="black" stroke-width="5" cx="285" cy="256" r="13"/>
+<circle fill="black" stroke="black" stroke-width="5" cx="215" cy="256" r="13"/>
+</svg>

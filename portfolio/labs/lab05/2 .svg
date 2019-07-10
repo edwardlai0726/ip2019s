@@ -1,0 +1,32 @@
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0,0,512,512">
+
+
+<ellipse fill="none" stroke="black" stroke-width="2" cx="256" cy="256" rx="90" ry="70"/>
+<circle fill="white" cx="192" cy="205" r="13"/>
+
+  <path d="M170 230 L150 180" stroke="black"/>
+  <path d="M150 180 L210 192" stroke="black"/>
+  <path d="M340 230 L380 180" stroke="black"/>
+  <path d="M380 180 L300 192" stroke="black"/>
+
+<path d="M180 256 L140 250" stroke="black"/>
+<path d="M183 270 L150 280" stroke="black"/>
+<path d="M190 290 L160 320" stroke="black"/>
+<path d="M332 256 L372 250" stroke="black"/>
+<path d="M329 270 L372 280" stroke="black"/>
+<path d="M322 290 L350 315" stroke="black"/>
+
+
+<ellipse fill="yellow" stroke="black" stroke-width="2" cx="256" cy="280" rx="13" ry="8"/>
+<ellipse fill="black" stroke="black" stroke-width="" cx="220" cy="238" rx="7" ry="10"/>
+<ellipse fill="black" stroke="black" stroke-width="" cx="292" cy="238" rx="7" ry="10"/>
+<polygon fill="#FF4343" stroke="black" stroke-width="2" points="313,218 340,215 330,240"/>
+<polygon fill="#FF4343" stroke="black" stroke-width="2" points="305,210 270,200 280,180"/>
+<circle fill="#FF4343" stroke="black" stroke-width="1" cx="325" cy="222" r="5.5"/>
+<circle fill="#FF4343" stroke="black" stroke-width="1" cx="294" cy="205" r="6"/>
+<circle fill="#FF4343" stroke="black" stroke-width="2" cx="310" cy="215" r="15"/>
+
+
+
+</svg>
