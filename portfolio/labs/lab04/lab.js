@@ -40,7 +40,7 @@ $('#b1').on('click', function() {
     update();
 });
 
-flip = 0
+flip = 0;
 var first = '';
 var second = '';
 
@@ -69,7 +69,7 @@ $('.issue').on('click',function() {
 
     } else if (flip == 1) {
         $('#i1').val( 2 );
-        $('#i5').val( thid.id );
+        $('#i5').val( this.id );
 
         if ( $(this).hasClass("club") ) {
             second = 'club';
